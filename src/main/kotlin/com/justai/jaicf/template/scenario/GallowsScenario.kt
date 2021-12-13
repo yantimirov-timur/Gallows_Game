@@ -83,7 +83,7 @@ val gameScenario = Scenario {
 
             action {
                 reactions.say(rules)
-                reactions.go("game_cycle")
+                reactions.go("/game_cycle")
             }
         }
         state("/exit") {
