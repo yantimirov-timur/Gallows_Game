@@ -10,8 +10,8 @@ val gameScenario = Scenario {
         }
         action {
             reactions.run {
-                //word = makeWord(allWords)
-                word = "ааббаа"
+                word = makeWord(allWords)
+                //word = "ааббаа"
                 encodedWord = game.encodeWord(word)
                 say("Давай сыграем в игру Виселица!\nПравила игры: /help\n")
                 say("Я загадал слово: ${encodedWord}\nКоличество букв: ${encodedWord.length}\n")
